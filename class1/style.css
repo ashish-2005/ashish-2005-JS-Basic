@@ -1,0 +1,32 @@
+/* div~p{
+    background-color: brown;
+    color: white;
+} */
+
+/* p:hover{
+        font-size: xx-large;
+        background-color: aqua;
+} */
+
+p::after{
+    content: "ABES Engineering college";
+    background-color: brown;
+    color: antiquewhite;
+}
+p::before{
+    content: "ABES Engineering college";
+    background-color: brown;
+    color: antiquewhite;
+}
+p::selection{
+    background-color: blue;
+}
+p:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+div p:nth-of-type(1){
+    background-color: aqua;
+    font-size: xx-small;
+}

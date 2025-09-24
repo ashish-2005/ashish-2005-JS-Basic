@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+ 
+.search{
+ 
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    height: 50px;
+    width: 500px;
+
+}
+
+.search-input{   
+     font-size: 20px;
+     font-family: 'Lexend', sans-seriff;
+     color: #333333;
+     margin-left: var(--padding);
+     outline: none;
+     border: none;
+     background-color: transparent;
+
+
+}
+
+.search-input::placeholder
+ {
+    color: rgba(0,0,0,0.5);
+}
+.search-icon{
+    color: rgba(0,0,0,0.5);
+    height: 10px;
+    width: 50px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+.account{
+    display: flex;
+    align-items: center;
+}
+.seller{
+    display: flex;
+    align-items: center;
+}
